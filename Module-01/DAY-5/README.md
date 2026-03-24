@@ -26,7 +26,7 @@ RegisterNumber: 212224040124
 ```
 
 ## Sourcecode.java:
-```
+```java
 import java.util.Scanner;
 
 public class Student {
