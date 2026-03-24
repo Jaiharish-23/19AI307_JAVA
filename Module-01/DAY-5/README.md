@@ -16,38 +16,56 @@ II.	Create multiple Student objects with different names.
 III.	Call the displayDetails() method for each student.
 8.	End the program.
 
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a class & objects using Java
 Developed by: JAI HARISH R
-RegisterNumber: 21222404012
+RegisterNumber: 212224040124
 */
-import java.util.*;
-public class Main
-{
-static int age=18;
-String name;
-   public static void main(String[] args) {
-    Scanner sc=new Scanner(System.in);
-    Main obj1=new Main();
-    Main obj2=new Main();
-    obj1.name=sc.next();
-    obj2.name=sc.next();
-    System.out.println("Student name: "+obj1.name+" Age: "+age);
-    System.out.println("Student name: "+obj2.name+" Age: "+age);
-   }
-}
-
 ```
 
+## Sourcecode.java:
+```
+import java.util.Scanner;
+
+public class Student {
+    String name;
+    static int age = 18; // Static variable for age, same for all students
+
+    // Constructor to set the student's name
+    Student(String name) {
+        this.name = name;
+    }
+
+    // Method to print student details
+    void printDetails() {
+        System.out.println("Student name: " + name + "Age: " + age);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+       
+        String name1 = scanner.nextLine();
+        Student student1 = new Student(name1);
+
+    
+        String name2 = scanner.nextLine();
+        Student student2 = new Student(name2);
+
+        // Print details of both students
+        student1.printDetails();
+        student2.printDetails();
+
+        scanner.close();
+    }
+}
+```
 
 ## OUTPUT:
 
-<img width="498" height="209" alt="image" src="https://github.com/user-attachments/assets/4c75e1bf-0dc1-4202-8db6-635e482db6de" />
-
+![image](https://github.com/user-attachments/assets/2567c887-b649-4cc6-b97b-4fe76a847798)
 
 ## RESULT:
 Thus, the Java program for the concept of using a static variable for shared data was correctly implemented and verified successfully. 
