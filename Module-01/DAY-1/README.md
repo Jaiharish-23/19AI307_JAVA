@@ -17,33 +17,45 @@ To create a class named 'Student' with String variable 'name' and String variabl
 
 
 ## PROGRAM:
- ```JAVA
-/*
+ ```
 Program to implement a class & objects using Java
 Developed by: JAI HARISH R
-RegisterNumber: 21222404012
-*/
-class Student{
-   String name;
-   String address;
-   int rollno;
+RegisterNumber: 212224040124
+```
+
+## Sourcecode.java:
+```Python
+public class Student
+{
+    String name,address;
+    int rollno;
 }
 public class Main {
-   public static void main(String[] args) {
-       Student obj= new Student();   
-       obj.name="JAIHARISH";
-       obj.address="Chennai";
-       obj.rollno=10;
-       System.out.println(obj.name+" "+obj.address+" "+obj.rollno);
-   }   
+    public static void main(String[] args) {
+        Student obj= new Student();   
+        obj.name="John";
+        obj.address="Chennai";
+        obj.rollno=10;
+        System.out.println(obj.name+" "+obj.address+" "+obj.rollno);
+    }   
 }
+
 ```
 
 
+
+
+
+
+
 ## OUTPUT:
-<img width="462" height="96" alt="image" src="https://github.com/user-attachments/assets/c1b1b923-6ec3-4de0-9442-47576ddc1a42" />
+![image](https://github.com/user-attachments/assets/6a1d94a9-2b17-44b9-86ca-f9befceba5ad)
+
 
 
 
 ## RESULT:
 Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
+
+
+
