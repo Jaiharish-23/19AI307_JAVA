@@ -1,3 +1,4 @@
+
 # Ex.No:1(D) USER DEFINED METHOD.
 
 ## AIM:
@@ -17,36 +18,42 @@ d)	Print the calculated area using the System.out.println statement
 a)	Create an instance of the 'Area' class called 'rectangle'
 b)	Call the 'calculateArea' method on the 'rectangle' object
 
-
-
-
 ## PROGRAM:
- ```JAVA
+ ```
 /*
 Program to implement a class & objects using Java
 Developed by: JAI HARISH R
-RegisterNumber: 21222404012
+RegisterNumber: 212224040124
 */
-public class Area {
-public void calculateArea()
-{
- Double length = 10.0; Double width = 20.0;
- Double area = length * width;
- System.out.println("Area of Rectangle is " + area);
-}
-public static void main(String[] args)
-{
-  Area rectangle = new Area(); rectangle.calculateArea();
-}
-}
 ```
 
-
+## Sourcecode.java:
+```java
+import java.util.*;
+public class Area {
+void calculateArea()
+    {
+        
+        int l=10;
+        int b=20;
+        double area;
+     
+        area=l*b;
+        System.out.println("Area of Rectangle is "+area);
+    }
+   
+       public static void main(String[] args) {
+       Area obj=new Area();
+       obj.calculateArea();
+       }
+}
+```
 ## OUTPUT:
 
-<img width="533" height="135" alt="image" src="https://github.com/user-attachments/assets/9082256b-bbe0-4294-bc2e-f70ee4167946" />
-
+![image](https://github.com/user-attachments/assets/11f4cdd9-cb6b-4971-9772-174d00c6a620)
 
 ## RESULT:
 Thus, the Java program to print area of rectangle by defining instance method and local variable value as 10,20 was created successfully.
+
+
 
