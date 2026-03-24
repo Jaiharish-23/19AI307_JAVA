@@ -16,31 +16,59 @@ a)	If the condition is true, print "true" using the 'print' method of 'System.ou
 b)	If the condition is false, print "false" using the 'print' method of 'System.out'
 9.	End
 
+
+
+
+
 ## PROGRAM:
  ```
-/*
-Program to implement a class & objects using Java
-Developed by: JAI HARISH R
-RegisterNumber: 21222404012
-*/
+Program to implement a variable and operators using Java
+Developed by: ABINAYA S
+RegisterNumber:  212222230002
+```
+
+## Sourcecode.java:
+
+```Python
 import java.util.*;
 public class Demo
 {
-    int a,b;
-    public static void main(String[] args)
+    public static void main(String[]args)
     {
-        Demo obj = new Demo();
-        Scanner sc=new Scanner(System.in);
-        obj.a=sc.nextInt();
-        obj.b=sc.nextInt();
-        System.out.println(obj.a < 50 && obj.a < obj.b);
+        int a,b;
+        Scanner in=new Scanner(System.in);
+        a=in.nextInt();
+        b=in.nextInt();
+        if(a<50 && a<b && b>60)
+        {
+            System.out.println("true");
+        }
+        else
+        {
+            System.out.println("false");
+        }
     }
 }
+
 ```
+
+
+
+
+
+
+
 
 ## OUTPUT:
 
-![image](https://github.com/Jaiharish-23/19AI307_JAVA/blob/adbf03c6839b3bdadaf71e200a6e2930b67c0ba3/Module-01/DAY-2/Screenshot%202026-03-22%20165126.png)
- 
+![1b](https://github.com/user-attachments/assets/852aea03-446c-45ad-a842-ecbb090deb6c)
+
+
+
+
+
+
+
 ## RESULT:
 Thus, the Java program to get values of variables 'a' and 'b' and then check if both the conditions 'a < 50' and 'a < b' are true is created successfully.
+
