@@ -27,7 +27,7 @@ RegisterNumber: 212224040124
 ```
 
 ## Sourcecode.java:
-```
+```JAVA
 class A
 { 
     public void display() 
